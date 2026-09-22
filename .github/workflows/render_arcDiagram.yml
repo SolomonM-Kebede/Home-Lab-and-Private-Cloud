@@ -13,7 +13,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Render SVG from Mermaid source
-        run: npx -p @mermaid-js/mermaid-cli mmdc -i images/architecture.mmd -o images/image-light.svg -b transparent
+        run: npx -p @mermaid-js/mermaid-cli mmdc -i images/architecture.mmd -o images/image-light.svg -b transparent -p images/puppeteer-config.json
 
       - name: Commit updated SVG
         run: |
