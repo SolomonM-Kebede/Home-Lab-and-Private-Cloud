@@ -2,6 +2,8 @@
 # Home Lab & Private Cloud Architecture
 A Proxmox-based home lab that doubles as a family private cloud and a self-contained offensive-security practice environment. A single physical host runs everything: firewall, DNS/DHCP, remote access, file storage, and an isolated attack range, segmented into separate virtual network zones so the practice environment can't reach the family-facing services.
 
+## architecture 
+
 ![Homelab Architecture](./images/image2-light.svg)
 
 ## Components
