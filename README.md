@@ -1,3 +1,4 @@
+```mermaid
 graph TD
     %% Custom Styles
     classDef virtual fill:#005577,stroke:#333,stroke-width:2px,color:#fff;
@@ -12,6 +13,7 @@ graph TD
     subgraph ProxmoxVE ["🖥️ Proxmox VE Host (Hybrid Lab & Cloud)"]
         
         OPNsense["🛡️ OPNsense Firewall VM
+
 IP: 10.0.0.x:9090"]:::virtual
 
     subgraph AttackerZone ["Offensive Security Zone"]
@@ -55,6 +57,7 @@ end
     
     %% Link Styling (Makes the SSH tunnel stand out)
     linkStyle 0 stroke-width:3px,stroke-dasharray: 5 5,stroke:#d97706;
+```
 
 ### How GitHub renders this:
 * **Emojis:** Are used instead of external FontAwesome icons because emojis are 100% natively supported across all devices and GitHub's dark/light modes without requiring external plugins.
