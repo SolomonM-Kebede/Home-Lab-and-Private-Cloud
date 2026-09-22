@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'images/architecture.mmd'
+  workflow_dispatch:
 
 jobs:
   render:
