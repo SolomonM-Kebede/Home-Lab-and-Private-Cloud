@@ -1,3 +1,5 @@
+
+# Home Lab & Private Cloud Architecture
 ```mermaid
 graph TD
     %% ===== Style Definitions =====
@@ -72,7 +74,3 @@ graph TD
     linkStyle 5 stroke-width:2px,stroke-dasharray: 3 3,stroke:2563eb;
 ```
 
-### How GitHub renders this:
-* **Emojis:** Are used instead of external FontAwesome icons because emojis are 100% natively supported across all devices and GitHub's dark/light modes without requiring external plugins.
-* **Colors:** The `classDef` lines apply dark blue to your cybersecurity lab VMs, green to your private cloud storage, and light gray to the virtual switches, making the architecture visually distinct.
-* **The Orange Dotted Line:** The `linkStyle` explicitly colors your SSH tunnel path so readers instantly understand how you manage the OPNsense instance securely from your MacBook.
