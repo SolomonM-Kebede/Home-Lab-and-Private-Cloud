@@ -70,8 +70,8 @@ graph TD
     end
 
     %% ===== Link Styling =====
-    linkStyle 0 stroke-width:3px,stroke-dasharray: 5 5,stroke:#d97706;
-    linkStyle 1 stroke-width:3px,stroke-dasharray: 5 5,stroke:#2563eb;
-    linkStyle 5 stroke-width:2px,stroke-dasharray: 3 3,stroke:#2563eb;
+    linkStyle 0 stroke-width:3px,stroke-dasharray: 5 5,stroke:d97706;
+    linkStyle 1 stroke-width:3px,stroke-dasharray: 5 5,stroke:2563eb;
+    linkStyle 5 stroke-width:2px,stroke-dasharray: 3 3,stroke:2563eb;
 ```
 
